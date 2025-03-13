@@ -1,0 +1,590 @@
+@import url(http://web.archive.org/web/20130704222338cs_/http://fonts.googleapis.com/css?family=Cabin+Condensed:600);
+
+div.container {
+  background-color: transparent;
+  width: 100%;
+  margin-top: 0;
+}
+
+div.content {
+  clear: both;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+#footer {
+  background-image: url(/web/20130704222338im_/http://lightspeed.goanimate.com/static/423/go/img/footer/shadow_dark.gif);
+}
+
+#index-top {
+  width: 100%;
+}
+
+#index-top .index-top-inside {
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+}
+
+.index-top-intro {
+  float: left;
+  width: 400px;
+}
+
+.index-top-intro h1 {
+  color: #BB2A2A;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 42px;
+  line-height: 54px;
+  margin: 0;
+  padding: 11px 0 15px;
+}
+
+.index-top-intro h1 strong {
+  font-size: 55px;
+  display: block;
+}
+
+.index-top-text,
+.index-top-list li {
+  color: #333;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.index-top-text strong {
+  color: #111;
+}
+
+.index-top-list {
+  list-style-type: disc;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 15px;
+}
+
+.index-top-list li {
+  line-height: 20px;
+}
+
+#index-top-video {
+  float: right;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  height: 290px;
+  width: 500px;
+}
+
+#index-top-banners {
+  float: right;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  height: 279px;
+  width: 490px;
+}
+
+.flexslider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-direction-nav li a {
+  background: transparent url(/web/20130704222338im_/http://lightspeed.goanimate.com/static/423/go/img/index/top/arrow_left.png) no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  margin: -33px 0 0;
+  height: 0;
+  padding-top: 66px;
+  overflow: hidden;
+  width: 35px;
+}
+
+.flex-direction-nav li a:hover {
+  background-position: 0 -66px;
+}
+
+.flex-direction-nav li a.prev {
+  left: 0;
+}
+
+.flex-direction-nav li a.next {
+  background-image: url(/web/20130704222338im_/http://lightspeed.goanimate.com/static/423/go/img/index/top/arrow_right.png);
+  right: 0;
+}
+
+.flex-control-nav {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-control-nav li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+.flex-control-nav li:first-child {
+  margin: 0;
+}
+
+.flex-control-nav li a {
+  background-color: #fff;
+  display: block;
+  height: 0;
+  padding-top: 10px;
+  overflow: hidden;
+  width: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.flex-control-nav li a:hover {
+  background-color: #888;
+}
+
+.flex-control-nav li a.active {
+  background-color: #000;
+}
+
+#index_signup {
+  margin: 15px 0 20px;
+}
+
+#index_signup .form-title {
+  background-color: #ccc;
+  color: #bb2a2a;
+  font: bold 20px "Droid Sans", sans-serif;
+  text-shadow: 1px 1px 1px #fff;
+  text-transform: uppercase;
+  height: 10px;
+  line-height: 10px;
+  margin: 8px 0;
+}
+
+#index_signup .form-title span {
+  background-color: #eee;
+  padding: 0 8px;
+  margin-left: 15px;
+}
+
+#index_signup_form {
+  background-color: #ccc;
+  display: block;
+  padding: 10px 0 10px 15px;
+  position: relative;
+}
+
+#index_signup_form>div {
+  position: relative;
+  float: left;
+}
+
+#signup_form_message {
+  color: #f00;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  height: 16px;
+  text-align: center;
+  position: absolute !important;
+  top: 50px;
+  left: 20px;
+}
+
+#index_signup_form label.infield {
+  color: #999;
+  cursor: text;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  line-height: 32px;
+  z-index: 1;
+}
+
+#email,
+#username,
+#password1 {
+  border: none;
+  display: block;
+  font-size: 13px;
+  margin: 0 8px 0 0;
+  padding: 8px;
+  width: 190px;
+}
+
+#password1 {
+  width: 160px;
+}
+
+#email.error,
+#username.error,
+#password1.error {
+  border-color: #f00;
+}
+
+#index_signup_submit {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding: 3px 0;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #333;
+  box-shadow: 0 1px 2px #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #a22;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc2e2e', endColorstr='#aa2222');
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc2e2e), to(#a22));
+  background: -moz-linear-gradient(top, #bc2e2e, #a22);
+}
+
+.signup_term {
+  font-style: italic;
+  font-size: 11px;
+}
+
+.signup_term a {
+  color: #06f;
+}
+
+.signup_term a:hover {
+  text-decoration: underline;
+}
+
+#index-bottom {
+  background: #333 url(/web/20130704222338im_/http://lightspeed.goanimate.com/static/423/go/img/index/bottom/img_grid_bg.gif) repeat 0 0;
+  width: 100%;
+  position: relative;
+}
+
+#index-bottom .index-bottom-inside {
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 960px;
+  position: relative;
+}
+
+#index-bottom h3 {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+#video-for {
+  margin: 0 0 20px;
+}
+
+#video-for h2 {
+  font: 28px "Droid Sans", sans-serif;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+#video-for h2 strong {
+  display: block;
+  font-size: 40px;
+}
+
+#video-for .fun,
+#video-for .school,
+#video-for .business {
+  float: left;
+  padding: 0 0 0 12px;
+  width: 308px;
+  position: relative;
+}
+
+#video-for .fun {
+  padding-left: 0;
+  width: 316px;
+}
+
+#video-for .school,
+#video-for .business {
+  border-left: 2px dashed #aaa;
+}
+
+#video-for .fun h2 a {
+  color: #d58d30;
+}
+
+#video-for .school h2 a {
+  color: #7fb348;
+}
+
+#video-for .business h2 a {
+  color: #318d9b;
+}
+
+#video-for ul {
+  color: #bbb;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+  list-style-type: none;
+  margin: 0;
+  min-height: 150px;
+  width: 220px;
+  text-indent: -10px;
+}
+
+#video-for ul li:before {
+  content: "- ";
+}
+
+#video-for ul li {
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+#video-for a.learn-more {
+  color: #bbb;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#video-for .call-to-action {
+  float: left;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+#video-for .call-to-action a {
+  display: block;
+  color: #fff;
+  font: normal 16px "Droid Sans", sans-serif;
+  padding: 8px 15px;
+  margin-bottom: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: -1px -1px 1px #333;
+  box-shadow: 0 1px 2px #000;
+}
+
+#video-for .fun .call-to-action {
+  color: #c6820c;
+}
+
+#video-for .school .call-to-action {
+  color: #7fb348;
+}
+
+#video-for .business .call-to-action {
+  color: #318d9b;
+}
+
+#video-for .fun .call-to-action a {
+  background: #c3780d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc980b), to(#c3780d));
+  background-image: -moz-linear-gradient(top, #cc980b, #c3780d);
+  background-image: -ms-linear-gradient(top, #cc980b, #c3780d);
+  background-image: -o-linear-gradient(top, #cc980b, #c3780d);
+  background-image: linear-gradient(to bottom, #cc980b, #c3780d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc980b', endColorstr='#c3780d');
+}
+
+#video-for .school .call-to-action a {
+  background: #69a12d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb247), to(#69a12d));
+  background-image: -moz-linear-gradient(top, #7eb247, #69a12d);
+  background-image: -ms-linear-gradient(top, #7eb247, #69a12d);
+  background-image: -o-linear-gradient(top, #7eb247, #69a12d);
+  background-image: linear-gradient(to bottom, #7eb247, #69a12d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7eb247', endColorstr='#69a12d');
+}
+
+#video-for .business .call-to-action a {
+  background: #3aa1b1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#53bccc), to(#3aa1b1));
+  background: -moz-linear-gradient(top, #53bccc, #3aa1b1);
+  background-image: -ms-linear-gradient(top, #53bccc, #3aa1b1);
+  background-image: -o-linear-gradient(top, #53bccc, #3aa1b1);
+  background-image: linear-gradient(to bottom, #53bccc, #3aa1b1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#53bccc', endColorstr='#3aa1b1');
+}
+
+#video-for .bg {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  height: 210px;
+  width: 86px;
+}
+
+#video-for .fun .bg {
+  background: transparent url('./img_fun.png') no-repeat 0 0;
+}
+
+#video-for .school .bg {
+  background: transparent url('./img_school.png') no-repeat 0 0;
+}
+
+#video-for .business .bg {
+  background: transparent url('./img_biz.png') no-repeat 0 0;
+}
+
+#index-explore_and_VM-tips-block {
+  margin-bottom: 10px;
+}
+
+#index-explore-left {
+  float: left;
+  width: 620px;
+}
+
+#index-VM-tips-right {
+  float: right;
+  width: 310px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+#index-explore-left h3,
+#index-VM-tips-right h3 {
+  text-transform: none;
+  margin-bottom: 22px;
+}
+
+.blog_article_item {
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.blog_article_title {
+  color: #aaa;
+  display: block;
+  text-decoration: underline;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.blog_article_title:hover {
+  text-decoration: underline;
+  font-style: italic;
+  color: #aaa;
+}
+
+.blog_article_title+span {
+  display: block;
+}
+
+.community-video-more,
+.video-maker-tips-more {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.community-video-more:hover,
+.video-maker-tips-more:hover {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.video-holder {
+  border: 1px solid #777;
+  cursor: pointer;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 4px;
+  position: relative;
+  width: 290px;
+}
+
+.vthumb {
+  background-color: #000;
+  width: 290px;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.vthumb-clip {
+  position: absolute;
+  top: -100px;
+  bottom: -100px;
+  left: -100px;
+  right: -100px;
+  text-align: center;
+}
+
+.vthumb-clip-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.vthumb-clip img {
+  width: 290px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vthumb-clip .valign {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.video-holder .play {
+  background: url(/web/20130704222338im_/http://lightspeed.goanimate.com/static/423/go/img/index/bottom/overlay_playbtn.png) no-repeat center center;
+  opacity: .9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.video-holder:hover .play {
+  opacity: 1;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:38 Jul 04, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:38:18 Mar 03, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.603
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.031
+  esindex: 0.01
+  cdx.remote: 66.044
+  LoadShardBlock: 211.449 (3)
+  PetaboxLoader3.datanode: 172.99 (4)
+  PetaboxLoader3.resolve: 83.49 (2)
+  load_resource: 70.638
+*/

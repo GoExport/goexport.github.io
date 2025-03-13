@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url("./Droid\ Sans.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url("./Droid\ Sans2.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Glegoo'), local('Glegoo-Regular'), url('./Droid\ Sans3.ttf') format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:24:06 May 03, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:38:18 Mar 03, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.688
+  exclusion.robots: 0.049
+  exclusion.robots.policy: 0.034
+  esindex: 0.013
+  cdx.remote: 22.814
+  LoadShardBlock: 302.472 (3)
+  PetaboxLoader3.datanode: 107.281 (4)
+  PetaboxLoader3.resolve: 218.542 (2)
+  load_resource: 117.706
+*/
